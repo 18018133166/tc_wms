@@ -1,0 +1,644 @@
+{
+  "uid" : "4e957e54e5aa3fb7",
+  "name" : "test_03_goods_check",
+  "fullName" : "cases.test_goods_management.Test_goods_management#test_03_goods_check",
+  "historyId" : "cb5227be3cfc305af3ad22d909dd96bc",
+  "time" : {
+    "start" : 1600160402248,
+    "stop" : 1600160403459,
+    "duration" : 1211
+  },
+  "description" : "\n        商品审核通过\n        ",
+  "descriptionHtml" : "<pre><code>    商品审核通过\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        商品审核通过\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1，检查商品的当前状态是否为待审核：check_status == 1",
+      "time" : {
+        "start" : 1600160402403,
+        "stop" : 1600160402405,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c922d461876d2c55",
+        "name" : "sql语句",
+        "source" : "c922d461876d2c55.attach",
+        "type" : "text/plain",
+        "size" : 77
+      }, {
+        "uid" : "d7dfd97b25e40865",
+        "name" : "执行结果",
+        "source" : "d7dfd97b25e40865.attach",
+        "type" : "text/plain",
+        "size" : 1
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤2，审核通过操作：code == 0",
+      "time" : {
+        "start" : 1600160403327,
+        "stop" : 1600160403332,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f68dd0757286d5cb",
+        "name" : "商品ID",
+        "source" : "f68dd0757286d5cb.attach",
+        "type" : "text/plain",
+        "size" : 5
+      }, {
+        "uid" : "f444dbd042493a31",
+        "name" : "headers",
+        "source" : "f444dbd042493a31.attach",
+        "type" : "text/plain",
+        "size" : 1193
+      }, {
+        "uid" : "5266e9f2ef6e3530",
+        "name" : "url",
+        "source" : "5266e9f2ef6e3530.attach",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "7137ace3513da8c7",
+        "name" : "body",
+        "source" : "7137ace3513da8c7.attach",
+        "type" : "text/plain",
+        "size" : 130
+      }, {
+        "uid" : "51fd0c3e658a6d3d",
+        "name" : "response",
+        "source" : "51fd0c3e658a6d3d.attach",
+        "type" : "text/plain",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 5,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤3，检查商品的当前状态是否审核通过：check_status == 2",
+      "time" : {
+        "start" : 1600160403458,
+        "stop" : 1600160403459,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6790f163e50f0af7",
+        "name" : "sql语句",
+        "source" : "6790f163e50f0af7.attach",
+        "type" : "text/plain",
+        "size" : 77
+      }, {
+        "uid" : "6a9cf0b5b25fd694",
+        "name" : "执行结果",
+        "source" : "6a9cf0b5b25fd694.attach",
+        "type" : "text/plain",
+        "size" : 1
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "dd4cb8de6b911f2b",
+      "name" : "log",
+      "source" : "dd4cb8de6b911f2b.txt",
+      "type" : "text/plain",
+      "size" : 263
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 10,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "1.2.商品审核"
+  }, {
+    "name" : "feature",
+    "value" : "1.商品管理"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_goods_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_goods_management"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7B7D4BO"
+  }, {
+    "name" : "thread",
+    "value" : "8080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_goods_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "33bda93ca22b7293",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600148653811,
+        "stop" : 1600148655036,
+        "duration" : 1225
+      }
+    }, {
+      "uid" : "7833a09f7951fb0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600138163532,
+        "stop" : 1600138164285,
+        "duration" : 753
+      }
+    }, {
+      "uid" : "423507c077d7441",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600138154318,
+        "stop" : 1600138155135,
+        "duration" : 817
+      }
+    }, {
+      "uid" : "5c07b0f7f789c43f",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'goods_name' is not defined",
+      "time" : {
+        "start" : 1600138146651,
+        "stop" : 1600138146651,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "27ad1c836cad8eee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600138112654,
+        "stop" : 1600138113423,
+        "duration" : 769
+      }
+    }, {
+      "uid" : "48002f8a95d27d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600138084460,
+        "stop" : 1600138085400,
+        "duration" : 940
+      }
+    }, {
+      "uid" : "74aca61ca8cc5009",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600138009893,
+        "stop" : 1600138010781,
+        "duration" : 888
+      }
+    }, {
+      "uid" : "c1151833d8e5e941",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'goods_name' is not defined",
+      "time" : {
+        "start" : 1600137810344,
+        "stop" : 1600137810344,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e8bdbd5c54da2cbc",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'goods_name' is not defined",
+      "time" : {
+        "start" : 1600137802319,
+        "stop" : 1600137802319,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7421d5cff2e16025",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600137207681,
+        "stop" : 1600137208770,
+        "duration" : 1089
+      }
+    }, {
+      "uid" : "1b98b1210df63034",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600135976664,
+        "stop" : 1600135977512,
+        "duration" : 848
+      }
+    }, {
+      "uid" : "e5e698dc2dad0d73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600135837955,
+        "stop" : 1600135838990,
+        "duration" : 1035
+      }
+    }, {
+      "uid" : "fce4f3e374807f33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600133053062,
+        "stop" : 1600133054099,
+        "duration" : 1037
+      }
+    }, {
+      "uid" : "959899eb543b1275",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1600132870888,
+        "stop" : 1600132871081,
+        "duration" : 193
+      }
+    }, {
+      "uid" : "d36be0d2045d32f1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1600093619211,
+        "stop" : 1600093619325,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "87d19f61515194f4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1600093603527,
+        "stop" : 1600093603633,
+        "duration" : 106
+      }
+    }, {
+      "uid" : "d5d9c279008563b1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1600092459681,
+        "stop" : 1600092459793,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "dd470f4d3a1f16cf",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1600092450894,
+        "stop" : 1600092451011,
+        "duration" : 117
+      }
+    }, {
+      "uid" : "69d66c680166ac3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1600092426978,
+        "stop" : 1600092427095,
+        "duration" : 117
+      }
+    }, {
+      "uid" : "3fbc0f18d34b29fb",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1600091775443,
+        "stop" : 1600091776969,
+        "duration" : 1526
+      }
+    }, {
+      "uid" : "ce5f7b85b0161f75",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1600091750234,
+        "stop" : 1600091751308,
+        "duration" : 1074
+      }
+    }, {
+      "uid" : "e0b53765d7286816",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not subscriptable",
+      "time" : {
+        "start" : 1600091728840,
+        "stop" : 1600091730344,
+        "duration" : 1504
+      }
+    }, {
+      "uid" : "d212824a83092dfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600072561063,
+        "stop" : 1600072561856,
+        "duration" : 793
+      }
+    }, {
+      "uid" : "1ba8e99e92293c81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600072552566,
+        "stop" : 1600072553632,
+        "duration" : 1066
+      }
+    }, {
+      "uid" : "31e9b779ebda14bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600072543860,
+        "stop" : 1600072545003,
+        "duration" : 1143
+      }
+    }, {
+      "uid" : "88e1f7ff43522322",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600072535283,
+        "stop" : 1600072536266,
+        "duration" : 983
+      }
+    }, {
+      "uid" : "f2d16196550a802b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600072526305,
+        "stop" : 1600072527922,
+        "duration" : 1617
+      }
+    }, {
+      "uid" : "65d56fcace1dc718",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600071511712,
+        "stop" : 1600071512909,
+        "duration" : 1197
+      }
+    }, {
+      "uid" : "91ea57b7ac150220",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600071502489,
+        "stop" : 1600071503657,
+        "duration" : 1168
+      }
+    }, {
+      "uid" : "34dc949d93eaa6d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600071490780,
+        "stop" : 1600071492085,
+        "duration" : 1305
+      }
+    }, {
+      "uid" : "51472534b53bdc45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600071481269,
+        "stop" : 1600071482234,
+        "duration" : 965
+      }
+    }, {
+      "uid" : "640fca8bfeb5ddf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600071472852,
+        "stop" : 1600071473884,
+        "duration" : 1032
+      }
+    }, {
+      "uid" : "8028a973fc0d9c33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600071017023,
+        "stop" : 1600071017836,
+        "duration" : 813
+      }
+    }, {
+      "uid" : "1bf3c2b2066beba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600071007142,
+        "stop" : 1600071008213,
+        "duration" : 1071
+      }
+    }, {
+      "uid" : "d88133442c8c2091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600070997778,
+        "stop" : 1600070998580,
+        "duration" : 802
+      }
+    }, {
+      "uid" : "bb86502e55819f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600070971963,
+        "stop" : 1600070974950,
+        "duration" : 2987
+      }
+    }, {
+      "uid" : "8a04ffd6a078b8e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600070951051,
+        "stop" : 1600070957181,
+        "duration" : 6130
+      }
+    }, {
+      "uid" : "c5bd0b45f8d9fccc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600069843364,
+        "stop" : 1600069846073,
+        "duration" : 2709
+      }
+    }, {
+      "uid" : "7f0c578ea7c5d2bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600069689040,
+        "stop" : 1600069692814,
+        "duration" : 3774
+      }
+    }, {
+      "uid" : "f03602b657a1bf63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600069669715,
+        "stop" : 1600069674703,
+        "duration" : 4988
+      }
+    }, {
+      "uid" : "245aa3a98ba6f04b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600069606947,
+        "stop" : 1600069611337,
+        "duration" : 4390
+      }
+    }, {
+      "uid" : "4a370938acf95c0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600069587369,
+        "stop" : 1600069591445,
+        "duration" : 4076
+      }
+    }, {
+      "uid" : "3d583614f06faf4f",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'goods_name' is not defined",
+      "time" : {
+        "start" : 1600069536956,
+        "stop" : 1600069536958,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "fa4b8714061bbb1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600055771026,
+        "stop" : 1600055783491,
+        "duration" : 12465
+      }
+    }, {
+      "uid" : "fef2cbacbbf3f0c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600055487961,
+        "stop" : 1600055493463,
+        "duration" : 5502
+      }
+    }, {
+      "uid" : "6ded4a82ff5b913c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600054965946,
+        "stop" : 1600054967542,
+        "duration" : 1596
+      }
+    }, {
+      "uid" : "acfe9865655f9092",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600054947396,
+        "stop" : 1600054949189,
+        "duration" : 1793
+      }
+    }, {
+      "uid" : "c4370944e01b8154",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600054937029,
+        "stop" : 1600054938884,
+        "duration" : 1855
+      }
+    }, {
+      "uid" : "ec7e3751d65ce7c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600054808131,
+        "stop" : 1600054810356,
+        "duration" : 2225
+      }
+    }, {
+      "uid" : "5a4a8f4cb79e3adc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600054394818,
+        "stop" : 1600054396735,
+        "duration" : 1917
+      }
+    }, {
+      "uid" : "cefda2764618cf5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600008267199,
+        "stop" : 1600008267917,
+        "duration" : 718
+      }
+    }, {
+      "uid" : "48b338495466aacf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600008249743,
+        "stop" : 1600008250310,
+        "duration" : 567
+      }
+    }, {
+      "uid" : "377f093bbbcbf2a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600008220193,
+        "stop" : 1600008220840,
+        "duration" : 647
+      }
+    }, {
+      "uid" : "2b6c47aab510606a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600008208910,
+        "stop" : 1600008209547,
+        "duration" : 637
+      }
+    }, {
+      "uid" : "e6f08c45d1a480c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600008165006,
+        "stop" : 1600008165655,
+        "duration" : 649
+      }
+    }, {
+      "uid" : "97cb972e09799c37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600008101909,
+        "stop" : 1600008102589,
+        "duration" : 680
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e957e54e5aa3fb7.json",
+  "parameterValues" : [ ]
+}

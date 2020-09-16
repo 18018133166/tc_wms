@@ -1,0 +1,4 @@
+wms:
+  查id:
+    - select_one
+    - SELECT id FROM sm_goods WHERE goods_name = '测试物料csf0612'

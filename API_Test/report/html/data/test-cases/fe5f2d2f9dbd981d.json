@@ -1,0 +1,67 @@
+{
+  "uid" : "fe5f2d2f9dbd981d",
+  "name" : "test_02_add_goods_repeat",
+  "fullName" : "cases.test_goods_management.Test_goods_management#test_02_add_goods_repeat",
+  "historyId" : "8cb62918180d0305ea6d5289dca35920",
+  "time" : {
+    "start" : 1600137810340,
+    "stop" : 1600137810340,
+    "duration" : 0
+  },
+  "description" : "\n        新增重复商品（根据商品名称判断，传入test_01_add_定义的全局变量goods_name）\n        ",
+  "descriptionHtml" : "<pre><code>    新增重复商品（根据商品名称判断，传入test_01_add_定义的全局变量goods_name）\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'goods_name' is not defined",
+  "statusTrace" : "self = <test_goods_management.Test_goods_management object at 0x000002D574597A08>\n\n    @allure.feature('1.商品管理')\n    @allure.story('1.1.添加商品')\n    @allure.severity('normal')\n    def test_02_add_goods_repeat(self):\n        '''\n        新增重复商品（根据商品名称判断，传入test_01_add_定义的全局变量goods_name）\n        '''\n>       response = add_goods_repeat(goods_name)\nE       NameError: name 'goods_name' is not defined\n\ncases\\test_goods_management.py:49: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "1.商品管理"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "1.1.添加商品"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_goods_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_goods_management"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7B7D4BO"
+  }, {
+    "name" : "thread",
+    "value" : "16644-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_goods_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe5f2d2f9dbd981d.json",
+  "parameterValues" : [ ]
+}

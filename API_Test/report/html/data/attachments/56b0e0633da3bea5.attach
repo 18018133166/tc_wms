@@ -1,0 +1,1 @@
+SELECT count(1) FROM sm_goods WHERE goods_name = 'sdh测试DD_0914222642'

@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): wms.qa.xianchengkeji.cn:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://wms.qa.xianchengkeji.cn:80 "POST /index/goods/save_check_goods HTTP/1.1" 200 None

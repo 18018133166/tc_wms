@@ -1,0 +1,10 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Sep 15 17:00:02 CST 2020","Tue Sep 15 17:00:03 CST 2020","1211","cases","test_goods_management","Test_goods_management","","","test_03_goods_check","
+        商品审核通过
+        "
+"passed","Tue Sep 15 17:00:01 CST 2020","Tue Sep 15 17:00:02 CST 2020","342","cases","test_goods_management","Test_goods_management","","","test_02_add_goods_repeat","
+        新增重复商品（根据商品名称判断，传入test_01_add_定义的全局变量goods_name）
+        "
+"passed","Tue Sep 15 17:00:01 CST 2020","Tue Sep 15 17:00:01 CST 2020","793","cases","test_goods_management","Test_goods_management","","","test_01_add_goods","
+        首次新增商品,商品名称根据当前时间命名（后缀格式年月日时分秒）,goods_name定义为全局变量
+        "

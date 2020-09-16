@@ -1,0 +1,1 @@
+SELECT check_status FROM sm_goods WHERE goods_name = 'sdh测试_贴标01_0915101255'

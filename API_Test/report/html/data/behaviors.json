@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "1.商品管理",
+    "children" : [ {
+      "name" : "1.1.添加商品",
+      "children" : [ {
+        "name" : "test_01_add_goods",
+        "uid" : "bf42ff3ac04e8796",
+        "parentUid" : "32bf71cf3319c09ff9d147063ed9cac5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600160401102,
+          "stop" : 1600160401895,
+          "duration" : 793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_02_add_goods_repeat",
+        "uid" : "38347faca672f270",
+        "parentUid" : "32bf71cf3319c09ff9d147063ed9cac5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600160401904,
+          "stop" : 1600160402246,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "32bf71cf3319c09ff9d147063ed9cac5"
+    }, {
+      "name" : "1.2.商品审核",
+      "children" : [ {
+        "name" : "test_03_goods_check",
+        "uid" : "4e957e54e5aa3fb7",
+        "parentUid" : "59d2a9b291de5b51b27b0912720b6fdc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600160402248,
+          "stop" : 1600160403459,
+          "duration" : 1211
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "59d2a9b291de5b51b27b0912720b6fdc"
+    } ],
+    "uid" : "75a6c5c9a2c4e1bb836622c60ce3899e"
+  } ]
+}

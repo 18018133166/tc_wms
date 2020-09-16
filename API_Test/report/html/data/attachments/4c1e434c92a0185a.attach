@@ -1,0 +1,1 @@
+SELECT * FROM sm_goods WHERE goods_name = '测试A_0914114215'

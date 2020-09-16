@@ -1,0 +1,6 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:943 Starting new HTTPS connection (1): ssoapi.qa.xianchengkeji.cn:443
+DEBUG    urllib3.connectionpool:connectionpool.py:442 https://ssoapi.qa.xianchengkeji.cn:443 "POST /login/mobile_login HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): wms.qa.xianchengkeji.cn:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://wms.qa.xianchengkeji.cn:80 "POST / HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:230 Starting new HTTP connection (1): wms.qa.xianchengkeji.cn:80
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://wms.qa.xianchengkeji.cn:80 "POST /index/goods/goods_info HTTP/1.1" 200 None

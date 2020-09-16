@@ -1,0 +1,181 @@
+{
+  "uid" : "6ded4a82ff5b913c",
+  "name" : "test_03_goods_check",
+  "fullName" : "cases.test_goods_management.Test_goods_management#test_03_goods_check",
+  "historyId" : "cb5227be3cfc305af3ad22d909dd96bc",
+  "time" : {
+    "start" : 1600054965946,
+    "stop" : 1600054967542,
+    "duration" : 1596
+  },
+  "description" : "\n        商品审核通过\n        ",
+  "descriptionHtml" : "<pre><code>    商品审核通过\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        商品审核通过\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1，检查商品的当前状态是否为待审核：check_status == 1",
+      "time" : {
+        "start" : 1600054966573,
+        "stop" : 1600054966575,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "832a2bec937153e1",
+        "name" : "sql语句",
+        "source" : "832a2bec937153e1.attach",
+        "type" : "text/plain",
+        "size" : 73
+      }, {
+        "uid" : "7e70a37dec0fd8b7",
+        "name" : "执行结果",
+        "source" : "7e70a37dec0fd8b7.attach",
+        "type" : "text/plain",
+        "size" : 1
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤2，审核通过操作：code == 0",
+      "time" : {
+        "start" : 1600054967155,
+        "stop" : 1600054967164,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e26b8d4f5b178cf6",
+        "name" : "商品ID",
+        "source" : "e26b8d4f5b178cf6.attach",
+        "type" : "text/plain",
+        "size" : 5
+      }, {
+        "uid" : "71f4de2b544588fc",
+        "name" : "headers",
+        "source" : "71f4de2b544588fc.attach",
+        "type" : "text/plain",
+        "size" : 1185
+      }, {
+        "uid" : "9f7f4de9ca66818c",
+        "name" : "url",
+        "source" : "9f7f4de9ca66818c.attach",
+        "type" : "text/plain",
+        "size" : 59
+      }, {
+        "uid" : "37aa21f13f4d5c0d",
+        "name" : "body",
+        "source" : "37aa21f13f4d5c0d.attach",
+        "type" : "text/plain",
+        "size" : 130
+      }, {
+        "uid" : "58cd9157b8fbe7e2",
+        "name" : "response",
+        "source" : "58cd9157b8fbe7e2.attach",
+        "type" : "text/plain",
+        "size" : 34
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 5,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤3，检查商品的当前状态是否审核通过：check_status == 2",
+      "time" : {
+        "start" : 1600054967541,
+        "stop" : 1600054967542,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6bfca31e072934b",
+        "name" : "sql语句",
+        "source" : "b6bfca31e072934b.attach",
+        "type" : "text/plain",
+        "size" : 73
+      }, {
+        "uid" : "5013e019b9b6d5f1",
+        "name" : "执行结果",
+        "source" : "5013e019b9b6d5f1.attach",
+        "type" : "text/plain",
+        "size" : 1
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "dd5982d91223017d",
+      "name" : "log",
+      "source" : "dd5982d91223017d.txt",
+      "type" : "text/plain",
+      "size" : 263
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 10,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "1.商品管理"
+  }, {
+    "name" : "story",
+    "value" : "1.2.商品审核"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_goods_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_goods_management"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7B7D4BO"
+  }, {
+    "name" : "thread",
+    "value" : "1076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_goods_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ded4a82ff5b913c.json",
+  "parameterValues" : [ ]
+}

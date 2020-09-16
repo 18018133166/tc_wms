@@ -1,0 +1,160 @@
+{
+  "uid" : "ceb5f3b0471dbd58",
+  "name" : "test_01_add_goods",
+  "fullName" : "cases.test_goods_management.Test_goods_management#test_01_add_goods",
+  "historyId" : "8558d841f5ffcb65ff0ea37e2f72c4b9",
+  "time" : {
+    "start" : 1600093602423,
+    "stop" : 1600093603246,
+    "duration" : 823
+  },
+  "description" : "\n        首次新增商品,商品名称根据当前时间命名（后缀格式年月日时分秒）,goods_name定义为全局变量\n        ",
+  "descriptionHtml" : "<pre><code>    首次新增商品,商品名称根据当前时间命名（后缀格式年月日时分秒）,goods_name定义为全局变量\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None != None",
+  "statusTrace" : "self = <test_goods_management.Test_goods_management object at 0x000001F0974D0F48>\n\n    @allure.feature('1.商品管理')\n    @allure.story('1.1.添加商品')\n    @allure.severity('critical')\n    def test_01_add_goods(self):\n        '''\n        首次新增商品,商品名称根据当前时间命名（后缀格式年月日时分秒）,goods_name定义为全局变量\n        '''\n        response = add_goods()\n        code = response[0].get('code')\n        global goods_name\n        goods_name = response[4]\n        with allure.step(\"步骤1，新增商品是否成功：code == 0\"):\n            allure.attach(goods_name, '商品名称')\n            self.response(response)\n            assert code == 0\n        sql = f'SELECT * FROM sm_goods WHERE goods_name = \\'{goods_name}\\''\n        result = ExecSql().exec_sql('wms', 'select_one', sql)\n        with allure.step('步骤2，数据库是否落地成功：sql执行结果 != None'):\n            allure.attach(sql, 'sql语句')\n            allure.attach(str(result), '执行结果')\n>           assert result != None\nE           assert None != None\n\ncases\\test_goods_management.py:39: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        首次新增商品,商品名称根据当前时间命名（后缀格式年月日时分秒）,goods_name定义为全局变量\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert None != None",
+    "statusTrace" : "self = <test_goods_management.Test_goods_management object at 0x000001F0974D0F48>\n\n    @allure.feature('1.商品管理')\n    @allure.story('1.1.添加商品')\n    @allure.severity('critical')\n    def test_01_add_goods(self):\n        '''\n        首次新增商品,商品名称根据当前时间命名（后缀格式年月日时分秒）,goods_name定义为全局变量\n        '''\n        response = add_goods()\n        code = response[0].get('code')\n        global goods_name\n        goods_name = response[4]\n        with allure.step(\"步骤1，新增商品是否成功：code == 0\"):\n            allure.attach(goods_name, '商品名称')\n            self.response(response)\n            assert code == 0\n        sql = f'SELECT * FROM sm_goods WHERE goods_name = \\'{goods_name}\\''\n        result = ExecSql().exec_sql('wms', 'select_one', sql)\n        with allure.step('步骤2，数据库是否落地成功：sql执行结果 != None'):\n            allure.attach(sql, 'sql语句')\n            allure.attach(str(result), '执行结果')\n>           assert result != None\nE           assert None != None\n\ncases\\test_goods_management.py:39: AssertionError",
+    "steps" : [ {
+      "name" : "步骤1，新增商品是否成功：code == 0",
+      "time" : {
+        "start" : 1600093603116,
+        "stop" : 1600093603126,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b0ba8e6d1e100a3",
+        "name" : "商品名称",
+        "source" : "6b0ba8e6d1e100a3.attach",
+        "type" : "text/plain",
+        "size" : 22
+      }, {
+        "uid" : "a60a7521a7f36cbc",
+        "name" : "headers",
+        "source" : "a60a7521a7f36cbc.attach",
+        "type" : "text/plain",
+        "size" : 1193
+      }, {
+        "uid" : "4d1bba4e455fa3fe",
+        "name" : "url",
+        "source" : "4d1bba4e455fa3fe.attach",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "7688586acbd0568f",
+        "name" : "body",
+        "source" : "7688586acbd0568f.attach",
+        "type" : "text/plain",
+        "size" : 3738
+      }, {
+        "uid" : "f7bb0edfdade46c1",
+        "name" : "response",
+        "source" : "f7bb0edfdade46c1.attach",
+        "type" : "text/plain",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 5,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤2，数据库是否落地成功：sql执行结果 != None",
+      "time" : {
+        "start" : 1600093603243,
+        "stop" : 1600093603245,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert None != None\n",
+      "statusTrace" : "  File \"D:\\API_Test\\cases\\test_goods_management.py\", line 39, in test_01_add_goods\n    assert result != None\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ff569a2e658ca22",
+        "name" : "sql语句",
+        "source" : "7ff569a2e658ca22.attach",
+        "type" : "text/plain",
+        "size" : 66
+      }, {
+        "uid" : "ee573cc17efbb92e",
+        "name" : "执行结果",
+        "source" : "ee573cc17efbb92e.attach",
+        "type" : "text/plain",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "b06d7b9705f7a873",
+      "name" : "log",
+      "source" : "b06d7b9705f7a873.txt",
+      "type" : "text/plain",
+      "size" : 739
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 8,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "1.1.添加商品"
+  }, {
+    "name" : "feature",
+    "value" : "1.商品管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_goods_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_goods_management"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7B7D4BO"
+  }, {
+    "name" : "thread",
+    "value" : "10188-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_goods_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ceb5f3b0471dbd58.json",
+  "parameterValues" : [ ]
+}

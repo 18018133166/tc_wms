@@ -1,0 +1,154 @@
+{
+  "uid" : "cae52480025509ca",
+  "name" : "test_01_add_goods",
+  "fullName" : "cases.test_goods_management.Test_goods_management#test_01_add_goods",
+  "historyId" : "8558d841f5ffcb65ff0ea37e2f72c4b9",
+  "time" : {
+    "start" : 1600133051983,
+    "stop" : 1600133052829,
+    "duration" : 846
+  },
+  "description" : "\n        首次新增商品,商品名称根据当前时间命名（后缀格式年月日时分秒）,goods_name定义为全局变量\n        ",
+  "descriptionHtml" : "<pre><code>    首次新增商品,商品名称根据当前时间命名（后缀格式年月日时分秒）,goods_name定义为全局变量\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        首次新增商品,商品名称根据当前时间命名（后缀格式年月日时分秒）,goods_name定义为全局变量\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1，新增商品是否成功：code == 0",
+      "time" : {
+        "start" : 1600133052666,
+        "stop" : 1600133052675,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6718448d5bc7c376",
+        "name" : "商品名称",
+        "source" : "6718448d5bc7c376.attach",
+        "type" : "text/plain",
+        "size" : 21
+      }, {
+        "uid" : "bc3313c0e4d44c1b",
+        "name" : "headers",
+        "source" : "bc3313c0e4d44c1b.attach",
+        "type" : "text/plain",
+        "size" : 1177
+      }, {
+        "uid" : "57f26e6bd771d089",
+        "name" : "url",
+        "source" : "57f26e6bd771d089.attach",
+        "type" : "text/plain",
+        "size" : 53
+      }, {
+        "uid" : "f6400285f93912e0",
+        "name" : "body",
+        "source" : "f6400285f93912e0.attach",
+        "type" : "text/plain",
+        "size" : 3737
+      }, {
+        "uid" : "604e917a874a22ab",
+        "name" : "response",
+        "source" : "604e917a874a22ab.attach",
+        "type" : "text/plain",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 5,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤2，数据库是否落地成功：sql执行结果 != None",
+      "time" : {
+        "start" : 1600133052826,
+        "stop" : 1600133052828,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3e90bb4835c8801c",
+        "name" : "sql语句",
+        "source" : "3e90bb4835c8801c.attach",
+        "type" : "text/plain",
+        "size" : 65
+      }, {
+        "uid" : "9b67e1b5452da5bc",
+        "name" : "执行结果",
+        "source" : "9b67e1b5452da5bc.attach",
+        "type" : "text/plain",
+        "size" : 722
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "941484b8aa2f0d28",
+      "name" : "log",
+      "source" : "941484b8aa2f0d28.txt",
+      "type" : "text/plain",
+      "size" : 739
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "1.商品管理"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "1.1.添加商品"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_goods_management"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_goods_management"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7B7D4BO"
+  }, {
+    "name" : "thread",
+    "value" : "14580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_goods_management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cae52480025509ca.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,1 @@
+SELECT check_status FROM sm_goods WHERE goods_name = '测试A_0914161751'
