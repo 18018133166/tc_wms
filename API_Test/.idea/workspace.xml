@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="40aa43a7-7bf3-4ec4-b832-5a574b83ede4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/test_goods_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/test_goods_management.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
